@@ -1,0 +1,158 @@
+*{
+    /* margin: 8px 16px 0px 16px; */
+    font-family: 'Jura', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0px 64px 0px 64px;
+    /* margin: 64px; */
+    /* overflow-x: hidden; */
+    background: #13091C;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95vw;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+    /* background-color: #13091C; */
+    font-size: 25px;
+    /* opacity: .6; */
+    z-index: 2;
+}
+
+.header-title{
+    display: flex;
+    margin: 0;
+    font-size: 38px;
+    /* background-color: rgb(36, 255, 142); */
+}
+
+.header-pages{
+    display: flex;
+    margin: 0;
+    gap: 64px;
+    /* background-color: burlywood; */
+}
+
+.header-pages a, .header-title{
+    color: rgb(165, 165, 165);
+}
+
+
+
+h1{
+    font-family: 'Jura', sans-serif; font-size: 125px;
+    /* background-color: yellowgreen; */
+    margin: 0;
+}
+
+h2{
+    font-family: 'Jura', sans-serif;
+    font-size: 55px;
+    opacity: .6;
+    /* background-color: aquamarine; */
+    margin: 0;
+}
+
+h3{
+    font-family: 'Jura', sans-serif; font-size: 65px;
+    /* background-color: aquamarine; */
+    margin: 0;
+}
+
+p{
+    font-family: 'Jura', sans-serif; font-size: 25px;
+    /* background-color: rgb(99, 137, 137); */
+    margin: 0;
+}
+
+main{   
+    display: flex;
+    flex-direction: column;
+    gap: 700px;
+    /* background-color: rgba(127, 255, 212, 0.333); */
+}
+
+
+#sec0{
+    height: fit-content;
+    padding: 0;    
+    /* background-color: blue; */
+}
+
+#sec0 img{
+    width: 50%;
+    height: 50%;
+}
+
+#title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    /* background-color: coral; */
+}
+
+section{
+    position: sticky;
+    display: flex;
+    padding: 100px 00px 100px 00px;
+
+    top: 4.8px;
+}
+
+#sec1{
+    /* background-color: cornflowerblue; */
+
+}
+
+.secText{
+    /* background-color: rgb(150, 97, 28); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .25s linear;
+
+}
+
+.secImgs{
+    /* background-color: darkred; */
+    display: flex;
+
+}
+
+
+.secImgs img{
+    /* background-color: aqua; */
+    width: 250px;
+    transition: all .5s linear;
+    opacity: 0;
+
+
+}
+
+#imgIcon{
+    margin-bottom: 120px;
+
+}
+
+#pentoolIcon{
+    margin-top: 120px;
+}
+
+
+#layersIcon{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+

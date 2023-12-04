@@ -1,5 +1,4 @@
 *{
-    margin: 0 auto;
     /* margin: 8px 16px 0px 16px; */
     font-family: 'Jura', sans-serif;
     font-weight: 400;
@@ -8,6 +7,7 @@
 }
 
 body{
+    margin: 0 auto;
     overflow-x: hidden;
     background: #13091C;
     padding: 0px 32px 0px 32px;
@@ -23,9 +23,9 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    margin: 0 auto;
 
     background-color: #13091C;
-    /* background-color: #8800ff; */
     font-size: 25px;
     /* opacity: .6; */
     z-index: 2;
@@ -49,17 +49,39 @@ header{
     color: rgb(165, 165, 165);
 }
 
+
 main{
-        margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 500px;
+    /* background-color: darkblue; */
 }
 
+section{
+    opacity: 0;
+}
 
 .sec1{
-    width: 100%;
-    /* background-color: chocolate; */
-    margin-top: 230px;
-    padding-left: 100px;
+    margin-top: 250px;
+    /* transition: opacity .25 linear; */
+
 }
+
+.INsec1{
+    transition: opacity .25s linear;
+    opacity: 1;
+}
+
+.OUTsec1{
+    transition: opacity .25s linear;
+    opacity: 0;
+}
+
+/* .fixGD{
+    position: sticky;
+    top: 0;
+} */
+
 
 .sec1 img{
     position: absolute;
@@ -69,34 +91,66 @@ main{
 
 }
 
+
 h1{
     font-family: 'Jura', sans-serif;
     font-size: 125px;
+    background-color: yellowgreen;
+    margin: 0 auto;
+
+
 }
 
 h2{
     font-family: 'Jura', sans-serif;
     font-size: 55px;
     opacity: .6;
+    background-color: aquamarine;
+    margin: 0 auto;
 }
 
-
-.title{
-    flex-direction: column;
-    /* background-color: aqua; */
-}
-
-
-section{
-    height: 100vh;
+h3{
+    font-family: 'Jura', sans-serif;
+    font-size: 55px;
+    background-color: aquamarine;
+    margin: 0;
 }
 
 .sec2{
-    background-color: rgb(0, 73, 73);
-    display: flex;
-    align-items: center;
+    height: fit-content;
+    background-color: blueviolet;
+    padding-top: 250px;
+    position: sticky;
+    top: 0;
 }
 
-#hihi{
-    opacity: 1;
+#GD-text{
+    width: 35%;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec2 div a{
+    margin-top: 100px;
+}
+
+.sec2 img{
+    width: 300px;
+    position: absolute;
+    right: 0;
+    top: 950px;
+}
+
+#imgIcon{
+    left: 750px;
+
+}
+
+#layersIcon{
+}
+
+#pentoolIcon{
+    left: 900px;
 }
