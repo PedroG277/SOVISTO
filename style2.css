@@ -107,14 +107,10 @@ section{
     position: sticky;
     display: flex;
     padding: 100px 00px 100px 00px;
-
     top: 4.8px;
 }
 
-#sec1{
-    /* background-color: cornflowerblue; */
-
-}
+/* #sec1{background-color: cornflowerblue;} */
 
 .secText{
     /* background-color: rgb(150, 97, 28); */
@@ -137,17 +133,17 @@ section{
     width: 250px;
     transition: all .5s linear;
     opacity: 0;
-
-
 }
+
 
 #imgIcon{
     margin-bottom: 120px;
-
 }
 
+
 #pentoolIcon{
-    margin-top: 120px;
+    margin-top: 150px;
+    width: 300px;
 }
 
 
