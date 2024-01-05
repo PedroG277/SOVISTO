@@ -35,6 +35,7 @@ header{
     display: flex;
     margin: 0;
     font-size: 38px;
+    cursor: pointer
     /* background-color: rgb(36, 255, 142); */
 }
 
@@ -77,23 +78,25 @@ p{
     margin: 0;
 }
 
-main{   
+main{
+    height: 6800px;
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
-    gap: 700px;
+
     /* background-color: rgba(127, 255, 212, 0.333); */
 }
 
 
 #sec0{
     height: fit-content;
-    padding: 0;    
+    padding: 0;
+    margin-bottom: 200px;
     /* background-color: blue; */
 }
 
 #sec0 img{
     width: 50%;
-    height: 50%;
 }
 
 #title{
@@ -104,13 +107,18 @@ main{
 }
 
 section{
+    /* background-color: blueviolet; */
     position: sticky;
     display: flex;
     padding: 100px 00px 100px 00px;
     top: 4.8px;
+
 }
 
-/* #sec1{background-color: cornflowerblue;} */
+#sec1{
+    /* background-color: cornflowerblue; */
+    margin-bottom: 1000px;
+}
 
 .secText{
     /* background-color: rgb(150, 97, 28); */
@@ -124,6 +132,7 @@ section{
 .secImgs{
     /* background-color: darkred; */
     display: flex;
+
 
 }
 
@@ -152,3 +161,136 @@ section{
     margin-top: 20px;
 }
 
+#sec2{
+    /* background-color: rgb(35, 122, 122); */
+    margin-bottom: 1000px;
+
+
+
+}
+
+.sec2Text{
+    /* background-color: chocolate; */
+    align-items: end;
+    text-align: right;
+    opacity: 1;
+}
+
+.sec2Imgs{
+    margin-top: 20px;
+}
+
+.sec2Imgs img{
+    /* background-color: aquamarine; */
+}
+
+#code1Icon{
+    width: 300px;
+    margin-top: 30px;
+}
+
+#code2Icon{
+    margin-top: 180px;
+}
+
+#browserIcon{
+    margin-bottom: 00px;
+}
+
+
+#sec3{
+    overflow: hidden;
+    /* background-color: aqua; */
+    margin-bottom: 1000px;
+}
+
+
+.secImgs{
+    /* background-color: burlywood; */
+    opacity: 1;
+}
+
+.sec3Imgs img{
+    /* background-color: rgb(11, 55, 55); */
+    /* opacity: 1; */
+}
+
+#lightbulbIcon{
+    /* background-color: chocolate; */
+    width: 280px;
+    margin-top: 150px;
+}
+
+#stonksIcon{
+    width: 320px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+#megaphoneIcon{
+    width: 270px;
+}
+
+
+.sec4{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 115px;
+}
+
+
+
+.sec4 p{
+    font-size: 55px;
+}
+
+.sec4 a{
+    font-size: 40px;
+    padding: 20px 50px 20px 50px;
+    background-color: #532d77;
+    transition: all .15s linear;
+
+}
+
+.sec4 a:hover{
+    background-color: rgb(203, 98, 255);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px 5px 50px;
+    background-color: #29123e;
+    margin-left: -64px;
+    margin-right: -64px;
+}
+
+.Fleft{
+    width: 35%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Fleft p{
+    font-size: 16px;
+    color: #c2c2c2
+}
+
+
+.Fright{
+    display: flex;
+    gap: 50px;
+
+}
+
+.Fright a{
+    font-size: 24px;
+    cursor: pointer;
+}
