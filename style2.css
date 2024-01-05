@@ -43,6 +43,7 @@ header{
     display: flex;
     margin: 0;
     gap: 64px;
+    cursor: pointer
     /* background-color: burlywood; */
 }
 
@@ -96,7 +97,7 @@ main{
 }
 
 #sec0 img{
-    width: 50%;
+    width: 51.5%;
 }
 
 #title{
@@ -180,9 +181,7 @@ section{
     margin-top: 20px;
 }
 
-.sec2Imgs img{
-    /* background-color: aquamarine; */
-}
+
 
 #code1Icon{
     width: 300px;
@@ -210,10 +209,7 @@ section{
     opacity: 1;
 }
 
-.sec3Imgs img{
-    /* background-color: rgb(11, 55, 55); */
-    /* opacity: 1; */
-}
+
 
 #lightbulbIcon{
     /* background-color: chocolate; */
@@ -263,19 +259,20 @@ section{
 footer{
     display: flex;
     justify-content: space-between;
+    padding: 0px 50px 0px 50px;
     align-items: center;
-    padding: 5px 50px 5px 50px;
     background-color: #29123e;
     margin-left: -64px;
     margin-right: -64px;
 }
 
 .Fleft{
-    width: 35%;
+    width: 40%;
     /* background-color: brown; */
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
+    padding-bottom: 20px;
 }
 
 .Fleft p{
@@ -285,8 +282,10 @@ footer{
 
 
 .Fright{
+    /* background-color: aqua; */
     display: flex;
     gap: 50px;
+    align-items: center;
 
 }
 
