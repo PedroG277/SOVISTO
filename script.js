@@ -34,7 +34,7 @@ function logg(){
 
 
     if (percScrolled > .5){
-        console.log('Hi')
+        //console.log('Hi')
         document.getElementById('sec1text').style.opacity = 1
 
         if (percScrolled > .9){
@@ -66,7 +66,7 @@ function logg(){
     }
 
     if (percScrolled > 1.8){
-        console.log('Bruh')
+        //console.log('Bruh')
         let val = (percScrolled - 1.8)*(0-1)/(2.1-1.8)+1
         document.getElementById('sec1').style.opacity = val
 
