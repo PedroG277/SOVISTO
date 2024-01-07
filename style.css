@@ -165,6 +165,7 @@ section{
 #sec2{
     /* background-color: rgb(35, 122, 122); */
     margin-bottom: 1000px;
+    opacity: 0;
 
 
 
@@ -201,6 +202,7 @@ section{
     overflow: hidden;
     /* background-color: aqua; */
     margin-bottom: 1000px;
+    opacity: 0;
 }
 
 

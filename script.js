@@ -33,10 +33,11 @@ function logg(){
 
 
 
-    if (percScrolled > .5){
+    if (percScrolled > .3){
         //console.log('Hi')
-        document.getElementById('sec1text').style.opacity = 1
-
+        let val = (percScrolled - .3)*(0-1)/(.6-.3)+1
+        document.getElementById('sec1text').style.opacity = 0.5-val
+        
         if (percScrolled > .9){
             document.getElementById('imgIcon').style.opacity = 1
         }
