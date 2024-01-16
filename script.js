@@ -124,8 +124,8 @@ function logg(){
         }
     }
 
-    if (percScrolled > 5.1){
-        let val = (percScrolled - 5.1)*(0-1)/(5.4-5.1)+1
+    if (percScrolled > 5.4){
+        let val = (percScrolled - 5.4)*(0-1)/(5.7-5.4)+1
         document.getElementById('sec3').style.opacity = val
     }
 }

@@ -11,6 +11,7 @@ body{
     /* margin: 64px; */
     /* overflow-x: hidden; */
     background: #13091C;
+    overflow-x: hidden;
 }
 
 header{
@@ -54,33 +55,33 @@ header{
 
 
 h1{
-    font-family: 'Jura', sans-serif; font-size: 125px;
+    font-family: 'Jura', sans-serif; font-size: 8.2vw;
     /* background-color: yellowgreen; */
     margin: 0;
 }
 
 h2{
     font-family: 'Jura', sans-serif;
-    font-size: 55px;
+    font-size: 3.6vw;
     opacity: .6;
     /* background-color: aquamarine; */
     margin: 0;
 }
 
 h3{
-    font-family: 'Jura', sans-serif; font-size: 65px;
+    font-family: 'Jura', sans-serif; font-size: 4.25vw;
     /* background-color: aquamarine; */
     margin: 0;
 }
 
 p{
-    font-family: 'Jura', sans-serif; font-size: 25px;
+    font-family: 'Jura', sans-serif; font-size: 1.62vw;
     /* background-color: rgb(99, 137, 137); */
     margin: 0;
 }
 
 main{
-    height: 6800px;
+    /* height: 6800px; */
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
@@ -93,17 +94,21 @@ main{
     height: fit-content;
     padding: 0;
     margin-bottom: 200px;
+    justify-content: space-between;
     /* background-color: blue; */
 }
 
 #sec0 img{
     width: 51.5%;
+    margin-right: 30px;
+    /* background-color: aquamarine; */
 }
 
 #title{
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
+    padding-top: 11%;
+    width: 45vw;
     /* background-color: coral; */
 }
 
@@ -140,7 +145,7 @@ section{
 
 .secImgs img{
     /* background-color: aqua; */
-    width: 250px;
+    width: 16vw;
     transition: all .5s linear;
     opacity: 0;
 }
@@ -153,7 +158,7 @@ section{
 
 #pentoolIcon{
     margin-top: 150px;
-    width: 300px;
+    width: 18vw;
 }
 
 
@@ -185,7 +190,7 @@ section{
 
 
 #code1Icon{
-    width: 300px;
+    width: 18vw;
     margin-top: 30px;
 }
 
@@ -199,12 +204,19 @@ section{
 
 
 #sec3{
-    overflow: hidden;
+    position: sticky;
+    top: 0;
     /* background-color: aqua; */
-    margin-bottom: 1000px;
+    /* margin-bottom: 1000px; */
     opacity: 0;
+    margin-bottom: -100px;
 }
 
+.stickyControlUnit{
+    width: 100%;
+    height: 1000px;
+    /* background-color: rgb(18, 255, 113); */
+}
 
 .secImgs{
     /* background-color: burlywood; */
@@ -215,29 +227,31 @@ section{
 
 #lightbulbIcon{
     /* background-color: chocolate; */
-    width: 280px;
+    width: 18.2vw;
     margin-top: 150px;
 }
 
 #stonksIcon{
-    width: 320px;
+    width: 21vw;
     margin-right: 30px;
     margin-top: 50px;
 }
 
 #megaphoneIcon{
-    width: 270px;
+    width: 18vw;
 }
 
 
 .sec4{
     /* background-color: blue; */
     width: 100%;
+    padding: 0px 0 200px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 50px;
-    margin-bottom: 115px;
+    /* margin-top: 50px; */
 }
 
 
@@ -294,4 +308,95 @@ footer{
 .Fright a{
     font-size: 24px;
     cursor: pointer;
+}
+
+
+
+@media all and (max-width: 1000px) {
+
+    header{
+        display: none;
+    }
+
+    #sec0{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        /* background-color: rgb(38, 87, 130); */
+
+    }
+
+    #title{
+        width: 100%;
+        order: 0;
+    }
+
+    h1{
+        font-size: 15vw;
+    }
+    
+    h2{
+        font-size: 7.2vw;
+    }
+
+    #sec0 img{
+        /* background-color: aqua; */
+        width: 100%;
+    }
+
+
+
+    section{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .secImgs{
+        /* background-color: aqua; */
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    h3{
+        font-size: 10vw;
+        font-weight: 500
+    }
+
+    p{
+        font-size: 4vw;
+    }
+
+
+    .secImgs img{
+        /* background-color: #532d77; */
+        width: 25vw;
+    }
+
+    #pentoolIcon{
+        width: 28vw;
+    }
+
+    .sec2Text{order: 0;}
+
+    .sec2Imgs{order: 1;}
+
+    #code1Icon{
+        width: 28vw;
+    }
+
+
+    #lightbulbIcon{
+        width: 28vw;
+    }
+    
+    #stonksIcon{
+        width: 28vw;
+    }
+    
+    #megaphoneIcon{
+        width: 28vw;
+    }
+    
+
 }
