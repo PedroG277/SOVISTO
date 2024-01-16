@@ -327,7 +327,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: start;
-        gap: 120px;
+        gap: 85px;
         /* background-color: rgb(38, 87, 130); */
 
     }
@@ -472,6 +472,7 @@ footer{
     }
 
     .Fright a{
+        width: 100%;
         font-size: 50px;
 
     }
