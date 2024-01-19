@@ -128,6 +128,15 @@ function logg(){
         let val = (percScrolled - 5.4)*(0-1)/(5.7-5.4)+1
         document.getElementById('sec3').style.opacity = val
     }
+
+
+    if ((window.innerHeight + Math.round(window.scrollY)) >= document.body.offsetHeight){
+        //console.log('Hi')
+        document.getElementById('sec3').style.opacity = 0
+    }
+
+
+    
 }
 
 

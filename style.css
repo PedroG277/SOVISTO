@@ -214,6 +214,8 @@ section{
     /* margin-bottom: 1000px; */
     opacity: 0;
     margin-bottom: -100px;
+    transition: all .5s linear;
+
 }
 
 .stickyControlUnit{
