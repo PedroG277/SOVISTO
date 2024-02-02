@@ -214,6 +214,8 @@ section{
     /* margin-bottom: 1000px; */
     opacity: 0;
     margin-bottom: -100px;
+    transition: all .5s linear;
+
 }
 
 .stickyControlUnit{
@@ -264,7 +266,7 @@ section{
     font-size: 55px;
 }
 
-.sec4 a{
+.mainButton{
     font-size: 40px;
     padding: 20px 50px 20px 50px;
     background-color: #532d77;
@@ -272,7 +274,7 @@ section{
 
 }
 
-.sec4 a:hover{
+.mainButton:hover{
     background-color: rgb(203, 98, 255);
 }
 
@@ -443,7 +445,7 @@ footer{
         font-size: 80px;
     }
 
-    .sec4 a{
+    .mainButton{
         font-size: 70px;
         padding: 30px 50px 30px 50px;
     }

@@ -1,0 +1,142 @@
+header{
+    background: #13091C;
+}
+
+h2{
+    opacity: .9;
+}
+
+h3{
+    font-size: 2.3vw;
+    opacity: .6;
+}
+
+footer h2{
+    opacity: .6;
+}
+
+section{
+    margin-top: 0;
+    padding: 0;
+    /* background-color: aqua; */
+    position: relative;
+}
+
+#oProjeto{
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 15px;
+}
+
+#oProjeto p{
+    font-size: 1.5vw;
+}
+
+.separator{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    opacity: .4;
+    margin: 50px 0 50px 0;
+}
+
+
+#peoples{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main{
+    margin-top: 8%;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+form{
+    background-color: #29123e;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 25px;
+    border-radius: 16px;
+    
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label{
+    font-size: 25px;
+}
+
+label a, p a{
+    text-decoration: underline 1.2px;
+}
+
+p{font-size: 15px; color: #bfbfbf;}
+
+input, textarea{
+    background-color: #532d77;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    height: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(58, 16, 77);
+    resize: vertical;
+}
+
+input::placeholder, textarea::placeholder{
+    color: rgb(173, 173, 173);
+}
+
+#mensagemInput{
+    height: 150px;
+    align-items: start;
+    justify-content: start;
+}
+
+#newsletterDiv{
+    flex-direction: row;
+    align-items: center;
+}
+
+#newsletterCheck{
+    width: 25px;
+}
+
+.mainButton{
+    height: fit-content;
+    font-size: 25px;
+    width: 200px;
+    padding: 10px 0px 10px 0px;
+    cursor: pointer;
+}
+
+#voltarButton{
+    margin-top: 5vw;
+}
+
+
+
+
+.placeholderContactos{
+    /* background-color: #29123e; */
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    font-size: 50px;
+}
+
+
+
+#submetidoFooter{
+    margin-top: 200px;
+}
