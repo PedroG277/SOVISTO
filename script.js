@@ -144,3 +144,11 @@ function logg(){
 function topFunction() {
     window.scrollTo({top: 0, behavior: 'smooth'})
 }
+
+function scrollABit(){
+    window.scrollBy({
+        top: 1900,
+        left: 0,
+        behavior : "smooth"
+    })
+}

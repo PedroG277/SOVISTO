@@ -187,29 +187,107 @@ input::placeholder, textarea::placeholder{
 
 
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1080px) {
+
+    label{
+        font-size: 6vw;
+    }
+
+    input, textarea{
+        font-size: 5.5vw;
+        height: 65px;
+        border-radius: 24px;
+        padding: 25px;
+    }
+
+    #newsletterDiv{
+        /* background-color: aqua; */
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        gap: 25px;
+    }
+
+    #newsletterDiv label{
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    #newsletterDiv input{
+        margin-top: 10px;
+        height: 60px;
+        width:  60px;
+        background-color: rgb(145, 255, 0);
+    }
+
+    #submeterButton, .contactosSec0 input, #voltarButton{
+        font-size: 5.2vw;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        background-color: rgb(203, 98, 255);
+    }
+
+    form{
+        gap: 60px;
+        border-radius: 32px;
+        margin-top: 15px;
+        margin-bottom: 150px;
+    }
+
+    form div{
+        gap: 15px;
+    }
+
+    form p{
+        font-size: 3.5vw;
+    }
+
+
 
     .contactosSec0{
+        /* background-color: aqua; */
         width: 100%;
+        margin-top: 15px;
+        margin-bottom: 150px;
     }
 
     .contactoCard{
-        width: 100%;
-        padding: 24px 5px 24px 5px;
+        /* background-color: chocolate; */
+        padding: 50px 0px 50px 0px;
+        gap: 50px;
     }
 
     .contactoCardTitle{
-        font-size: 32px;
+        font-size: 6.5vw;
     }
 
     .contactoCardText{
-        width: 100%;
-        font-size: 22px;
-    }
-
-
-
-    .contactosButton{
+        font-size: 4.3vw;
         width: 90%;
     }
+
+
+    .contactosSec0 input{
+        background-color: #532d77;
+        margin-top: 80px;
+        width: 90%;
+    }
+
+    #submetidoMain{
+        height: 80vh;
+    }
+
+    h3{
+        font-size: 4.5vw;
+    }
+
+    #voltarButton{
+        background-color: #532d77;
+    }
+
+    #submetidoFooter{
+        margin-top: 0;
+    }
+
 }
