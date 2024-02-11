@@ -125,6 +125,47 @@ input::placeholder, textarea::placeholder{
 
 
 
+.contactosSec0{
+    /* background-color: rgb(139, 109, 71); */
+    width: 100%;
+    gap: 70px;
+    display: flex;
+
+}
+
+.contactoCard{
+    /* background-color: brown; */
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 32px;
+    border: 2.5px solid rgba(128, 128, 128, 0.452);
+    border-radius: 16px;
+}
+
+.contactoCardTitle{
+    font-size: 42px;
+    font-weight: 500;
+    opacity: .8;
+    /* background-color: rgb(187, 76, 76); */
+    height: fit-content;
+}
+
+.contactoCardText{
+    /* background-color: chartreuse; */
+    margin-top: 15px;
+    margin-bottom: 55px;
+    width: 100%;
+    font-size: 18px;
+
+}
+
+.contactosButton{
+    width: 100%;
+}
+
 
 .placeholderContactos{
     /* background-color: #29123e; */
@@ -139,4 +180,36 @@ input::placeholder, textarea::placeholder{
 
 #submetidoFooter{
     margin-top: 200px;
+}
+
+
+
+
+
+
+@media all and (max-width: 1000px) {
+
+    .contactosSec0{
+        width: 100%;
+    }
+
+    .contactoCard{
+        width: 100%;
+        padding: 24px 5px 24px 5px;
+    }
+
+    .contactoCardTitle{
+        font-size: 32px;
+    }
+
+    .contactoCardText{
+        width: 100%;
+        font-size: 22px;
+    }
+
+
+
+    .contactosButton{
+        width: 90%;
+    }
 }
